@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="31.161854mm"
+   height="10.240174mm"
+   viewBox="0 0 31.161854 10.240174"
+   version="1.1"
+   id="svg32205"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs32202">
+    <rect
+       x="122.62695"
+       y="282.8595"
+       width="174.38148"
+       height="55.468811"
+       id="rect402-2-9" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-86.418194,-195.89654)">
+    <g
+       id="g31442"
+       transform="matrix(1.0384349,0,0,1.0384349,161.06981,187.37869)">
+      <g
+         id="g34341-9"
+         transform="matrix(1.0813476,0,0,1.0813476,-77.161327,2.2333212)"
+         style="fill:#ffffff;fill-opacity:1">
+        <path
+           id="path16198-8-9"
+           style="fill:#f8f8f8;fill-opacity:1;stroke-width:0.783385;stroke-linecap:round;stroke-dashoffset:27.2126"
+           d="m 11.818861,5.5202068 a 3.7586407,4.5596624 0 0 0 -3.3630973,2.530368 3.6970236,3.2965127 0 0 0 -3.5796794,3.2924552 3.6970236,3.2965127 0 0 0 3.6970794,3.296503 3.6970236,3.2965127 0 0 0 1.7332653,-0.387419 3.7586407,4.5596624 0 0 0 1.512432,0.387419 3.7586407,4.5596624 0 0 0 1.562024,-0.412316 3.6970236,3.2965127 0 0 0 1.786297,0.412316 3.6970236,3.2965127 0 0 0 3.696877,-3.296503 3.6970236,3.2965127 0 0 0 -3.681291,-3.2963012 3.7586407,4.5596624 0 0 0 -3.363907,-2.526522 z" />
+        <path
+           id="path16198-5-1-7"
+           style="fill:#f8f8f8;fill-opacity:1;stroke:#1d79af;stroke-width:0.271411;stroke-linecap:round;stroke-dasharray:0.542825, 1.08565;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 11.828543,6.3822178 a 3.0480642,3.6976515 0 0 0 -2.7272983,2.051998 2.9980959,2.6733021 0 0 0 -2.9029374,2.6700122 2.9980959,2.6733021 0 0 0 2.9981414,2.673294 2.9980959,2.6733021 0 0 0 1.4055893,-0.314177 3.0480642,3.6976515 0 0 0 1.226505,0.314177 3.0480642,3.6976515 0 0 0 1.266721,-0.334367 2.9980959,2.6733021 0 0 0 1.448595,0.334367 2.9980959,2.6733021 0 0 0 2.997976,-2.673294 2.9980959,2.6733021 0 0 0 -2.985337,-2.6731302 3.0480642,3.6976515 0 0 0 -2.727955,-2.04888 z" />
+      </g>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.21697347,0,0,0.21697347,-95.584343,-50.425116)"
+         id="text400-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.03px;line-height:1;font-family:'last ninja';-inkscape-font-specification:'last ninja Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect402-2-9);shape-padding:0;display:inline;vector-effect:none;fill:#3d525f;fill-opacity:1;stroke:none;stroke-width:0.575751;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
+           x="122.62695"
+           y="303.83252"
+           id="tspan32807"><tspan
+             style="font-family:'Permanent Marker';-inkscape-font-specification:'Permanent Marker Bold'"
+             id="tspan32805">PET COVER </tspan></tspan></text>
+    </g>
+  </g>
+</svg>

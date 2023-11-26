@@ -1,0 +1,39 @@
+:root {
+
+    --my_primary_light_bg: #f8f8f8;
+    --header-color: #b4c6d0;
+    --my-font-color: #303c43ff;
+    font-size: 0.875em;
+
+}
+
+@font-face{
+    font-family: "Exo 2 Bold";
+    src: url(/font/Exo2-Bold.ttf);
+
+}
+body{
+background-color: var(--my_primary_light_bg);
+
+}
+header.navbar {
+    background-color:var(--header-color) ;
+font-family: "Exo 2 Bold";
+text-transform: uppercase;
+font-weight: 900;
+letter-spacing: 0.8px;
+font-size: 1.2rem;
+color: var(--my-font-color);
+}
+
+header.navbar i {
+
+    font-weight: 900 !important;
+}
+header .active{
+
+  background-image: url('/img/arrowBottom.svg');  
+  background-repeat: no-repeat;
+  background-position:  bottom -10px  center;
+
+}

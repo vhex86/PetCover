@@ -8,15 +8,15 @@
 
 }
 
-@font-face{
-    font-family: "Exo 2 Bold";
-    src: url(/font/Exo2-Bold.ttf);
-
-}
 
 @font-face {
     font-family: "Neucha-Regular";
     src: url(/font/Neucha-Regular.ttf);
+}
+
+@font-face {
+    font-family: "HachiMaruPop-Regular";
+    src: url(/font/HachiMaruPop-Regular.ttf);
 }
 body{
 background-color: var(--my_primary_light_bg);
@@ -42,15 +42,72 @@ header .active{
 
   background-image: url('/img/arrowBottom.svg');  
   background-repeat: no-repeat;
-  background-position:  bottom   center;
+  background-position:bottom center;
   
-/* color: var(--my-font-color) !important; */
-  /* background-origin: content-box; */
 
 }
 
 .my-main-navigate-link .nav-link{
-/* color: var(--my-font-color) !important; */
 padding-bottom: 1rem;
 padding-top: 1rem;
+margin-left: 2rem;
+margin-right: 2rem;
 }
+
+
+.myPage{
+height: 100vh;
+
+}
+
+
+
+
+.myMainLogo{
+background-image: url(/img/MainLogo.svg);
+background-repeat: no-repeat;
+background-position:center center;
+background-size:contain;
+height: 50vh;
+}
+
+.myHello{
+font-family: "HachiMaruPop-Regular";
+font-size: 2rem;
+text-transform: uppercase;
+height: 2vh;
+}
+
+.myRedArrowForDownMotion{
+ background-image: url(/img/redArrow.svg);
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: contain;
+ margin-bottom: 5rem;
+ height: 5vh;
+}
+.myDogDecoration{
+background-image: url(/img/Dog.svg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center bottom -5rem;
+height: 48vh;
+/* opacity: 0.7; */
+}
+
+.myCatDecoration{
+    background-image: url(/img/Cat.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom -5rem;
+    /* opacity: 0.8; */
+    }
+
+    .myPresentText{
+        font-family: "HachiMaruPop-Regular";
+        font-size: 3rem;
+
+    }
+
+
+

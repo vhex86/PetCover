@@ -5,6 +5,7 @@
     --my-font-color: #303c43ff;
     font-size: 0.875em;
 
+
 }
 
 @font-face{
@@ -12,28 +13,44 @@
     src: url(/font/Exo2-Bold.ttf);
 
 }
+
+@font-face {
+    font-family: "Neucha-Regular";
+    src: url(/font/Neucha-Regular.ttf);
+}
 body{
 background-color: var(--my_primary_light_bg);
 
 }
+
 header.navbar {
     background-color:var(--header-color) ;
-font-family: "Exo 2 Bold";
+font-family: "Neucha-Regular";
 text-transform: uppercase;
 font-weight: 900;
-letter-spacing: 0.8px;
+letter-spacing: 3px;
 font-size: 1.2rem;
-color: var(--my-font-color);
+padding: 0 !important;
 }
 
-header.navbar i {
+header.navbar .navbar-brand {
 
-    font-weight: 900 !important;
+    padding-top:0;
+     padding-bottom:0 ;
 }
 header .active{
 
   background-image: url('/img/arrowBottom.svg');  
   background-repeat: no-repeat;
-  background-position:  bottom -10px  center;
+  background-position:  bottom   center;
+  
+/* color: var(--my-font-color) !important; */
+  /* background-origin: content-box; */
 
+}
+
+.my-main-navigate-link .nav-link{
+/* color: var(--my-font-color) !important; */
+padding-bottom: 1rem;
+padding-top: 1rem;
 }

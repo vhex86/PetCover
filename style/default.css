@@ -338,54 +338,68 @@ background-size: 30rem;
 }   
 
 .LogoInToStore{
-background: url('/img/LogoInToStore.svg');          
+background: url('../img/LogoInToStore.svg');          
 width: 100%;
 min-height:40vh ;
 display: block;
 background-repeat: no-repeat ;
 background-position: center;
 background-size: 15rem;
+background-size: contain;
+animation: sway 1s  infinite; 
 }
 
 .CatPageInToStore{
-
-    background: url('/img/Cat.svg');
+    background: url('../img/Cat.svg');
     min-height: 30vh;
-    
     background-size: contain;
     background-repeat: no-repeat;
-    transform: rotate(90deg);
     opacity: .7;
+    background-position: left bottom;   
 }
 
 .CrazyCatPageInToStore{
-    background: url('/img/CatCrazy.svg');
-
-    min-height: 30vh;
-    
+    background: url('../img/CatCrazy.svg');
+    min-height: 30vh;  
     background-size: contain;
     background-repeat: no-repeat;
-    transform: rotate(100deg);
     opacity: .7;
+  background-position: right bottom;
+
 }
 .FishPageInToStore{
-    background: url('/img/Fish.svg');
+    background: url('../img/Fish.svg');
 
     min-height: 30vh;
     
     background-size: contain;
     background-repeat: no-repeat;
-    transform: rotate(50deg);
     opacity: .7;
+    background-position: left bottom; 
 }
 .DogPageInToStore{
 
-    background: url('/img/Dog.svg');
-
+    background: url('../img/Dog.svg');
     min-height: 30vh;
-    
     background-size: contain;
     background-repeat: no-repeat;
-    transform: rotate(-30deg);
-opacity: .7;
+    opacity: .7;
+    background-position: right bottom;
+}
+@keyframes sway {
+    0%   { transform: translateX(0); }     /* Исходное положение */
+    25%  { transform: translateX(-15px); } /* Положение влево */
+    50%  { transform: translateX(0); }     /* Возврат к исходному */
+    75%  { transform: translateX(15px); }  /* Положение вправо */
+    100% { transform: translateX(0); }     /* Возврат к исходному */
+}
+.myPage5{
+    margin-bottom: 1rem;
+}
+.myPage6{
+
+    min-height: 50vh;
+    background-color:var(--header-color);
+    font-family: 'Neucha-Regular';
+    text-align: center;
 }

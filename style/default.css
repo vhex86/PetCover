@@ -403,3 +403,9 @@ animation: sway 1s  infinite;
     font-family: 'Neucha-Regular';
     text-align: center;
 }
+::-webkit-scrollbar {
+    width: 0;
+  }
+  :root{
+    scrollbar-width: none !important; 
+  }

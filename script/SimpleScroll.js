@@ -45,19 +45,27 @@ document.addEventListener('wheel', function(event) {
                      // Прокручиваем вниз
                      if (currentIndex < elements.length - 1) {
                          currentIndex++; // Увеличиваем индекс
-                       
-                        elements[currentIndex].scrollIntoView({ 
-                               behavior: 'smooth' 
-                                  });
-
+             
             
                    }}
+else {
+    if (currentIndex > 0){
+        currentIndex--; 
+
+    }
+}
 
 
-        console.log('Прокрутка завершена!');
+elements[currentIndex].scrollIntoView({ 
+    behavior: 'smooth' 
+       });
+
 
 
 
 
     }, 100); // Здесь 100 мс - это время ожидания до срабатывания таймера
+
+
+
 }, { passive: false });

@@ -1,0 +1,24 @@
+@media(max-width: 991px) {
+
+
+
+    .navbar-toggler:focus  {
+
+        box-shadow:none;
+    }
+header .active {
+
+    background-image: none;
+}
+.nav-link{
+
+    display: flex;
+    padding: initial;
+    margin: initial;
+}
+.my-main-navigate-link .nav-link {
+    padding: initial;
+    margin: initial;
+
+}
+}

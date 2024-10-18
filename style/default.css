@@ -100,6 +100,9 @@ background-color: var(--my_primary_light_bg);
  background-size: contain;
  margin-bottom: 5rem;
  height: 5vh;
+ cursor: pointer;
+animation: move-up-down 2s ease-in-out infinite; 
+filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5)); 
 }
 .myDogDecoration{
 background-image: url('../img/Dog.svg');
@@ -347,6 +350,7 @@ background-position: center;
 background-size: 15rem;
 background-size: contain;
 animation: sway 1s  infinite; 
+filter: drop-shadow(2px 15px 5px rgba(0, 0, 0, 0.5));
 }
 
 .CatPageInToStore{
@@ -409,3 +413,31 @@ animation: sway 1s  infinite;
   :root{
     scrollbar-width: none !important; 
   }
+.myRedArrowForTopMotion{
+
+    background-image: url('../img/redArrowTop.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-bottom: 5rem;
+    height: 5vh;
+    cursor: pointer;
+   animation: move-up-down 2s ease-in-out infinite; 
+   filter: drop-shadow(1px 5px 10px rgba(0, 0, 0, 0.5)); 
+transform: rotate(100deg) !important;
+
+
+}
+
+
+@keyframes move-up-down {
+    0% {
+        transform: translateY(0); /* Начальное положение */
+    }
+    50% {
+        transform: translateY(-20px); /* Поднятие вверх */
+    }
+    100% {
+        transform: translateY(0); /* Возвращение в исходное положение */
+    }
+}

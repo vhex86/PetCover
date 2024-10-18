@@ -4,7 +4,7 @@
 <svg
    width="35.264931mm"
    height="17.63246mm"
-   viewBox="0 0 35.264931 17.632459"
+   viewBox="0 0 35.264931 17.63246"
    version="1.1"
    id="svg2350"
    xmlns="http://www.w3.org/2000/svg"
@@ -14,10 +14,10 @@
     <filter
        style="color-interpolation-filters:sRGB"
        id="filter8752"
-       x="-0.061250653"
-       y="-0.12250043"
-       width="1.1310083"
-       height="1.2733575">
+       x="-8.1000198e-06"
+       y="-1.6199923e-05"
+       width="1.0085232"
+       height="1.028389">
       <feFlood
          flood-opacity="0.498039"
          flood-color="rgb(0,0,0)"
@@ -31,7 +31,7 @@
          id="feComposite8744" />
       <feGaussianBlur
          in="composite1"
-         stdDeviation="0.9"
+         stdDeviation="0.00011901942"
          result="blur"
          id="feGaussianBlur8746" />
       <feOffset
@@ -49,10 +49,10 @@
   </defs>
   <g
      id="layer1"
-     transform="translate(-62.90991,-114.51427)">
+     transform="translate(-62.902602,-116.32987)">
     <path
        id="rect1-3"
        style="fill:#df4d45;fill-opacity:1;stroke-width:5.80001;stroke-linecap:round;stroke-dasharray:46.4, 11.6, 5.80001, 11.6"
-       d="M 80.542515,132.14673 98.17484,114.51427 H 62.90991 Z" />
+       d="m 80.535207,116.32987 17.632325,17.63246 h -35.26493 z" />
   </g>
 </svg>

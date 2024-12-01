@@ -2,24 +2,26 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/bootstrap.min.css" />
-    <link rel="stylesheet" href="font/fontawesome/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" href="./style/bootstrap.min.css" />
+    <link rel="stylesheet" href="./font/fontawesome/css/all.min.css" />
 
 
-    <link rel="stylesheet" href="style/default.css" />
-    <link rel="stylesheet" href="style/tablet.css" />
+    <link rel="stylesheet" href="./style/default.css" />
+    <link rel="stylesheet" href="./style/tablet.css" />
 
     <title>Pet Cover</title>
   </head>
   <body>
-    <header class="navbar navbar-expand-lg fixed-top">
-      <div class="container-fluid ">
-        <a class="navbar-brand" href="#">
-          <img src="img/LogoSmallPetCover.svg" />
+    
+
+      <header class="navbar navbar-expand-lg fixed-top ">
+   
+        <a class="navbar-brand ms-2" href="#">
+          <img src="./img/LogoSmallPetCover.svg" />
         </a>
-        <button
-          class="navbar-toggler"
+        <button 
+          class="navbar-toggler me-5"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -71,7 +73,7 @@
         </div>
       </div>
     </header>
-
+  
     <main>
       <section class="myPage myPage1 container-fluid">
         <div class="container">
@@ -85,10 +87,10 @@
           </div>
 
           <div class="row d-flex justify-content-between">
-            <div class="col-3 myDogDecoration"></div>
+            <div class="col-lg-3 col-4 myDogDecoration"></div>
 
-            <div class="col-3 myCrazyCatDecoration"></div>
-            <div class="col-3 myCatDecoration"></div>
+            <div class="col-lg-3 col-4 myCrazyCatDecoration"></div>
+            <div class="col-lg-3 col-4 myCatDecoration"></div>
           </div>
         </div>
       </section>
@@ -96,13 +98,13 @@
       <section class="myPage myPage2 container-fluid align-items-center d-flex">
         <div class="container">
           <div class="row">
-                      <div class="col-6 d-flex align-items-center myPresentText">
-            <div class="my_article_header">
+                      <div class="col-lg-6  d-flex align-items-center myPresentText">
+            <div class="my_article_header text-center col-12">
               ПрактичнО! <br />
-             <div class="my_description">  Легко чистить и ухаживать</div> 
+             <div class="my_description text-center">  Легко чистить и ухаживать</div> 
             </div>
           </div>
-          <div class="col-6 position-relative washDecorate " >
+          <div class="col-lg-6  position-relative washDecorate " >
             <div class="bubble position-absolute  ">
           
             </div>
@@ -125,8 +127,8 @@
 <div class="container">
 
   <div class="row">
-    <div class="col-6 d-flex align-items-center myPresentText">
-      <div class="my_article_header">
+    <div class="col-lg-6 d-flex align-items-center myPresentText">
+      <div class="my_article_header col-12 text-center">
         УниверсальнО! <br />
        <div  class="my_description" >Подойдут для всех видов домашних животных <br>
         <span>*кроме рыбок</span> <br>
@@ -136,7 +138,7 @@
     
     </div>
 
-<div class="col-6  d-flex align-items-center justify-content-center  my_house" >
+<div class="col-lg-6  d-flex align-items-center justify-content-center  my_house" >
 
   <div class="col-12 d-flex align-items-center my_circle  justify-content-center  "></div>
 
@@ -628,15 +630,15 @@
 
 
 
-      <div class="fixed-bottom container d-flex justify-content-center">
+      <div class="fixed-bottom container d-flex justify-content-center MyContainerForDownScroll">
         <a class=" myRedArrowForDownMotion  row col-1" ></a>
       </div>
     </main>
 
-    <script src="script/bootstrap.bundle.min.js"></script>
+    <script src="./script/bootstrap.js"></script>
 
   
-    <script src="script/anime.min.js"></script>
+    <script src="./script/anime.min.js"></script>
     <script >
 const paths = document.querySelectorAll('path');
 const timeline = anime.timeline({
@@ -655,7 +657,7 @@ anime({
 
 
 </script>
-<script src="script/SimpleScroll.js"></script>
+<script src="/script/SimpleScroll.js"></script>
 
 
   </body>

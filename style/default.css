@@ -5,18 +5,23 @@
     --my-font-color: #303c43ff;
     /* font-size: 0.875em; */
     font-size: calc(0.5em + 1vw);
-
+    /* --bs-navbar-padding-y:0 !important; */
 }
-
+::-webkit-scrollbar {
+    width: 0;
+  }
+  :root{
+    scrollbar-width: none !important; 
+  }
 
 @font-face {
     font-family: "Neucha-Regular";
-    src: url(../font/Neucha-Regular.ttf);
+    src: url('../font/Neucha-Regular.ttf');
 }
 
 @font-face {
     font-family: "HachiMaruPop-Regular";
-    src: url(../font/HachiMaruPop-Regular.ttf);
+    src: url('../font/HachiMaruPop-Regular.ttf');
 }
 body{
 background-color: var(--my_primary_light_bg);
@@ -30,35 +35,8 @@ text-transform: uppercase;
 font-weight: 900;
 letter-spacing: 3px;
 font-size: 0.8rem;
-padding: 0 !important;
-}
-
-header.navbar .navbar-brand {
-
-    padding-top:10px;
-     padding-bottom:10px ;
-  
-}
-.navbar-brand img{
-height: 2rem;
-width: 100%;
-}
-header .active{
-
-  background-image: url('../img/arrowBottom.svg');  
-  background-repeat: no-repeat;
-  background-position:bottom center;
-  
 
 }
-
-.my-main-navigate-link .nav-link{
-padding-bottom: 1rem;
-padding-top: 1rem;
-margin-left: 2rem;
-margin-right: 2rem;
-}
-
 
 .myPage{
 min-height: 100vh;
@@ -112,8 +90,6 @@ background-position: center ;
 height: 10rem;
 animation: moveAndRotate 20s infinite;
 
-/* animation: rotate 10s infinite; */
-
 }
 
 .myCatDecoration{
@@ -159,7 +135,6 @@ animation: moveAndRotate 20s infinite;
     background-position: center;
     height: 2rem;
     width: 2rem;
-    /* margin-bottom: 5rem; */
     
     opacity: 0.5;
    top: 65%;
@@ -393,7 +368,7 @@ filter: drop-shadow(2px 15px 5px rgba(0, 0, 0, 0.5));
 @keyframes sway {
     0%   { transform: translateX(0); }     /* Исходное положение */
     25%  { transform: translateX(-15px); } /* Положение влево */
-    50%  { transform: translateX(0); }     /* Возврат к исходному */
+   50%  { transform: translateX(0); }     /* Возврат к исходному */
     75%  { transform: translateX(15px); }  /* Положение вправо */
     100% { transform: translateX(0); }     /* Возврат к исходному */
 }
@@ -407,12 +382,7 @@ filter: drop-shadow(2px 15px 5px rgba(0, 0, 0, 0.5));
     font-family: 'Neucha-Regular';
     text-align: center;
 }
-::-webkit-scrollbar {
-    width: 0;
-  }
-  :root{
-    scrollbar-width: none !important; 
-  }
+
 .myRedArrowForTopMotion{
 
     background-image: url('../img/redArrowTop.svg');
@@ -441,3 +411,23 @@ transform: rotate(100deg) !important;
         transform: translateY(0); /* Возвращение в исходное положение */
     }
 }
+
+.nav-item > .active {
+
+    border-bottom: 1px solid  var(--my-font-color) !important;
+
+    font-weight: 600;    
+}
+
+    .my-main-navigate-link >  .nav-item{
+
+        margin-left: 2rem;
+    font-weight: 400 !important;
+    }
+    .myBackgroundColor{
+      
+      position: relative;
+      background-color: var(--my_primary_light_bg);
+     z-index: 10;
+   
+    }

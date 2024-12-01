@@ -1,24 +1,61 @@
 @media(max-width: 991px) {
 
 
+.navbar-toggler:focus {
+    box-shadow: initial !important;
 
-    .navbar-toggler:focus  {
+}
 
-        box-shadow:none;
+
+.my-main-navigate-link > .nav-item {
+    margin-left: initial !important; 
+     font-weight: inherit; 
+}
+
+.my-main-navigate-link {
+
+    align-items: center;
+    font-size: 1.5rem;
+    
     }
-header .active {
+    .my-main-navigate-link > .nav-item{
+    
+    margin-bottom: 1rem;
+    
+    }
+    
+    .my_social_link{
+align-items: center;
+justify-content: space-around;
+flex-direction: row;
+font-size: 2rem;
+opacity: 0.6;
+/* margin-top: 2rem; */
+    }
 
-    background-image: none;
-}
-.nav-link{
+    .myHello{
+font-size: 1.3rem;
 
-    display: flex;
-    padding: initial;
-    margin: initial;
-}
-.my-main-navigate-link .nav-link {
-    padding: initial;
-    margin: initial;
+    }
+ 
+    @keyframes moveAndRotate {
+        0% {
+            transform: translateY(0) rotate(0deg); /* Начальная позиция */
+        }
+        50% {
+            transform: translateY(-4em) rotate(180deg); /* Вверх и поворот */
+        }
+        100% {
+            transform: translateY(0) rotate(360deg); /* Назад в исходное положение */
+        }
+    }
 
-}
+    .MyContainerForDownScroll{
+display: none !important;
+
+    }
+
+    .myPage2 {
+
+    }
 }

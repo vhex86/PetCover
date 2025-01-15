@@ -424,10 +424,10 @@ transform: rotate(100deg) !important;
         margin-left: 2rem;
     font-weight: 400 !important;
     }
-    .myBackgroundColor{
-      
-      position: relative;
-      background-color: var(--my_primary_light_bg);
-     z-index: 10;
-   
-    }
+.myFooter{
+
+    font-size: 1.5rem;
+}    
+.myFooter_sign{
+margin-bottom: 2rem !important;
+}

@@ -55,7 +55,56 @@ display: none !important;
 
     }
 
-    .myPage2 {
+    .my_description{
+
+        font-size: 1.3rem;
+     
+    }
+    .myPresentText {
+
+        font-size: 2.1rem;
+    }
+
+/* 
+.myPage3 {
+    margin-bottom: 5rem !important;
+} */
+
+.myPage3 .row  {
+    /* background-color: blueviolet; */
+    min-height: 100vmax;
+    padding:  1rem 0 1rem 0 !important;
+    display: flex;
+    align-content: space-around !important;
+
+
+}
+.myPage{
+margin: 5rem 0 5rem 0;
+}
+
+.myPage4{
+min-height: 100vmax !important;
+
+
+}
+.FishPageInToStore {
+background-position:  left bottom 1rem;
+transform: rotate(-30deg);
+background-size: 60%;
+
+}
+
+.myPage + .myPage6 {
+    margin-bottom: 0;
+}
+
+.myBackgroundColor{
+      
+    position: relative;
+    background-color: var(--my_primary_light_bg);
+   z-index: 10;
+ 
+  }
 
     }
-}

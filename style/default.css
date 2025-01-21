@@ -431,3 +431,14 @@ transform: rotate(100deg) !important;
 .myFooter_sign{
 margin-bottom: 2rem !important;
 }
+
+.navbar-brand{
+background-image: url('/img/LogoSmallPetCover.svg');
+background-size: contain;
+background-repeat: no-repeat;
+display: block;
+}
+.navbar-brand a {
+    display: block;
+    height: 100% !important;
+}

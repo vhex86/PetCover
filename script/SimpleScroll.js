@@ -66,7 +66,7 @@ arrowElement.addEventListener("click", function () {  //слушатель на 
       });
        }
              else {
-// в последней секции поворачиваем стрелку вверз и возвращаемся к предпоследней секции
+// в последней секции поворачиваем стрелку вверх и возвращаемся к предпоследней секции
           arrowElement.classList.remove("myRedArrowForDownMotion");
           arrowElement.classList.add("myRedArrowForTopMotion");
           currentIndex -= 2;

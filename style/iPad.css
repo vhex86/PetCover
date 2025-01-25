@@ -1,10 +1,10 @@
 @media(min-width:768px) and (orientation: portrait){ 
-    :root {  font-size: calc(0.9em + 1.2vw) !important;}
+    :root {  font-size: calc(0.7em + 1.2vw) !important;}
       
     .navbar-brand img{
 
 /* background-color: aqua; */
-
+width: 150%;
 
     }
   }

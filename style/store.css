@@ -1,0 +1,43 @@
+.My_basket_store span {
+
+
+    color:  #c9453e;
+}
+
+.My_space_card{
+padding-top: 5rem !important;
+margin-bottom: 1rem;
+}
+.myCardItem{
+
+border: 1px solid var(--header-color);
+min-height: 10rem;
+border-radius: 0.5em;
+margin-top: 1rem;
+
+}
+.myCardItem {
+
+min-height: 25rem;
+
+
+}
+.myCardItem img {
+width: 100%;
+height: 15rem;
+
+}
+.myButtonAddBag {
+
+    /* border: 1px solid var() ;  */
+border-radius: 0.2em;
+background-color: var(--header-color);
+border: none;
+padding: 0.4rem;
+
+}
+
+.myTitleItem{
+
+
+}

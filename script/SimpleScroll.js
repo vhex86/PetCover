@@ -27,6 +27,7 @@ document.addEventListener(
 
       elements[currentIndex].scrollIntoView({
         behavior: "smooth",
+      
       });
     }, 100); // Здесь 100 мс - это время ожидания до срабатывания таймера
   },
@@ -40,9 +41,15 @@ arrowElement.addEventListener("click", function () {  //слушатель на 
    
       currentIndex--; //если не первая секция уменьшаем индекс и двигаемся вверх
       if (currentIndex >= 0) {
-      elements[currentIndex].scrollIntoView({
+      // elements[currentIndex].scrollIntoView({
+      //   behavior: "smooth",
+      //   block:"start"
+      // });
+      window.scrollTo({
+        top: rect.top + window.scrollY,
         behavior: "smooth"
       });
+
          }  else {
 //если пришли в первую секцию поворачиваем стрелку и двигаемся ко второй секции
           arrowElement.classList.remove("myRedArrowForTopMotion");
@@ -64,6 +71,7 @@ arrowElement.addEventListener("click", function () {  //слушатель на 
       elements[currentIndex].scrollIntoView({
         behavior: "smooth"
       });
+     
        }
              else {
 // в последней секции поворачиваем стрелку вверх и возвращаемся к предпоследней секции
